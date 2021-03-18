@@ -1,0 +1,39 @@
+.image{
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+    border-image-width: 0vh;
+    
+    
+}
+
+
+
+.recipe{
+    border-radius: 30px;
+    box-shadow: 0px 50px 20px rgb(2, 2, 2);
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(244, 245, 243);
+    align-items: center;
+    min-width: 40px;
+    font-size: 14px;
+    line-height: 3;
+    -ms-flex-align: center;
+}
+.title{
+    text-size-adjust: 16px;
+}
+.ingredients{
+    font-size: inherit;
+    
+
+}
